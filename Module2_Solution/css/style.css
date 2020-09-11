@@ -1,0 +1,101 @@
+/* CSS designed by Guilherme Farias */
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;;
+}
+
+h1 {
+  font-size: 75px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #151575;
+}
+
+section {
+	background-color: #cfcccc;
+	border: 1px solid #FFF;
+}
+
+.container {
+	margin-top: 40px
+}
+
+.content {
+	margin-top: 40px;
+  padding: 20px;
+  font-weight: bold;
+  height: 270px;
+  overflow: auto;
+}
+
+.chicken {
+  color: white;
+  font-weight: bold;
+  background-color: #c06b78;
+}
+
+.beef {
+  color: white;
+  font-weight: bold;
+  background-color: #6d0e0e;
+}
+
+.sushi {
+  color: white;
+  font-weight: bold;
+  background-color: #75750f;
+}
+
+h2 {
+		width: 45%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		border: 1px solid black;
+		text-align: center;
+		margin-top: 0;
+}
+
+/* Style for the Desktop View */
+@media (min-width: 992px) {
+
+	section {
+		border: 1px solid black;
+		width: 30%;
+		float: left;
+		margin: 0 1.6%;
+		position: relative;
+		background-color: #999999;
+	}	
+}
+
+/* Style for the Tablet View */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	section:nth-child(1), section:nth-child(2) {
+		width: 47%;
+		margin: 1.5%;
+		float: left;
+		position: relative;
+	}
+	section:last-child {
+		clear: both;
+		width: 97%;
+		position: relative;
+		margin: 1.5%;
+	}
+}
+
+/* Style for the Mobile View */
+@media (max-width: 767px) {
+	section {
+		position: relative;
+		width: 90%;
+		margin: 5%;
+	}
+}
