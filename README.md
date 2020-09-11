@@ -1,3 +1,4 @@
 Site project from scratch:
 
-https://fariasguilherme.github.io/Web-course-lessons/
+Module 2 Solution:
+https://fariasguilherme.github.io/Trattoria-Thomazini/Module2_Solution/
