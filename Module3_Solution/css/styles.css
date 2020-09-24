@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(236, 236, 143);
+}
+
+#header-nav{
+    background-color: rgb(72, 197, 72);
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header {
+    height: 80px;
+}
+
+#header-nav h1 {
+    font-family: "helvetica";
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px #222;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: .75;
+    font-size: 2.5em;
+}
+
+.navbar-toggle {
+    margin-top: 20px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid whitesmoke;
+}
+
+#nav-list a {
+    color: black;
+}
+
+#nav-list a span {
+    font-size: 1em;
+    margin-right: 20px;
+}
+
+#collapsable-nav a {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#main-title h2 {
+    color: rgb(179, 32, 32);
+    font-family: "helvetica";
+    text-shadow: 1px 1px 2px whitesmoke;
+    font-weight: bold;
+    font-size: 2.3em;
+}
+
+#chicken, #beef, #sushi {
+    background-color: rgb(202, 189, 189);
+    border-radius: 10px;
+}
+
+#chicken h3 {
+    color: rgb(182, 70, 29);
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+#beef h3 {
+    color: rgb(59, 11, 17);
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+#sushi h3 {
+    color: rgb(207, 209, 57);
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+#chicken, #beef, #sushi p {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
